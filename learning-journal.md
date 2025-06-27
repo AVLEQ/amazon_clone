@@ -99,7 +99,7 @@ While working on this Amazon clone, I was also actively involved in an **IIM int
 > Building this dashboard was directly enhanced by the knowledge I gained during SoC — especially layout design, JavaScript logic, and UI responsiveness.
 
 📌 The dashboard has been added to GitHub soon as a separate submission.
-Heres the link: 
+Heres the link: https://github.com/AVLEQ/IIM_Intern.git 
 
 ---
 
