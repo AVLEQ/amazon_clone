@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Notification Bar -->
+  <div class="top-notification">
+    <p>Summer Sale: Get 20% off on selected items | Shop now →</p>
+  </div>
+
+  <!-- Main Header -->
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="nav-logo">
+        <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Amazon Logo">
+      </div>
+      <div class="nav-deliver">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <span class="deliver-to">Deliver to</span>
+          <span class="location">India</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-search">
+      <select class="search-select">
+        <option>All</option>
+        <option>Electronics</option>
+        <option>Fashion</option>
+        <option>Home</option>
+      </select>
+      <input type="text" placeholder="Search Amazon">
+      <button><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="nav-right">
+      <div class="nav-account">
+        <span>Hello, sign in</span>
+        <span>Account & Lists <i class="fas fa-caret-down"></i></span>
+      </div>
+      <div class="nav-returns">
+        <span>Returns</span>
+        <span>& Orders</span>
+      </div>
+      <div class="nav-cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span>Cart</span>
+        <span class="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Secondary Navigation -->
+  <nav class="sub-nav">
+    <a href="#"><i class="fas fa-bars"></i> All</a>
+    <a href="#">Today's Deals</a>
+    <a href="#">Customer Service</a>
+    <a href="#">Registry</a>
+    <a href="#">Gift Cards</a>
+    <a href="#">Sell</a>
+  </nav>
+
+  <main>
+    <!-- Hero Banner -->
+    <section class="hero">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/uber_new_high._CB537689643_.jpg" alt="Hero Banner">
+    </section>
+
+    <!-- Product Grid Sections -->
+    <section class="product-section">
+      <h2>Deals of the Day</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-badge">30% off</div>
+          <img src="https://m.media-amazon.com/images/I/71WkDp--uqL._AC_UL320_.jpg" alt="Wireless Headphones">
+          <h3>boAt Rockerz 450 Bluetooth Headphones</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>12,345</span>
+          </div>
+          <p class="product-price"><span class="original-price">₹1,999</span> ₹1,399</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <div class="product-badge">Prime</div>
+          <img src="https://m.media-amazon.com/images/I/61L1ItFgFHL._AC_UL320_.jpg" alt="Smart Watch">
+          <h3>Noise ColorFit Pulse Grand Smart Watch</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>8,765</span>
+          </div>
+          <p class="product-price">₹2,999</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://m.media-amazon.com/images/I/61BGE6iu4AL._AC_UL320_.jpg" alt="Bluetooth Speaker">
+          <h3>JBL Go 3 Portable Bluetooth Speaker</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>3,210</span>
+          </div>
+          <p class="product-price">₹3,499</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <div class="product-badge">Best Seller</div>
+          <img src="https://m.media-amazon.com/images/I/71TPda7cwUL._AC_UL320_.jpg" alt="Power Bank">
+          <h3>Ambrane 10000mAh Power Bank</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>9,876</span>
+          </div>
+          <p class="product-price">₹899</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section">
+      <h2>Fashion for You</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="https://m.media-amazon.com/images/I/61-jA2d5VaL._AC_UL320_.jpg" alt="Men's T-Shirt">
+          <h3>Amazon Brand - Symbol Men's T-Shirt</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>5,432</span>
+          </div>
+          <p class="product-price">₹299</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <div class="product-badge">New</div>
+          <img src="https://m.media-amazon.com/images/I/71FyQhXcAFL._AC_UL320_.jpg" alt="Women's Dress">
+          <h3>KAYA WOMEN Cotton Blend Dress</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>2,345</span>
+          </div>
+          <p class="product-price">₹599</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://m.media-amazon.com/images/I/61S7BrBCjiL._AC_UL320_.jpg" alt="Sports Shoes">
+          <h3>Nike Revolution 6 Running Shoes</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>7,890</span>
+          </div>
+          <p class="product-price">₹2,495</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <div class="product-badge">30% off</div>
+          <img src="https://m.media-amazon.com/images/I/71Hc3LaVq5L._AC_UL320_.jpg" alt="Handbag">
+          <h3>American Tourister Casual Backpack</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>1,234</span>
+          </div>
+          <p class="product-price"><span class="original-price">₹2,999</span> ₹2,099</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section">
+      <h2>Home & Kitchen Essentials</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-badge">Best Seller</div>
+          <img src="https://m.media-amazon.com/images/I/61nzj5gQqIL._AC_UL320_.jpg" alt="Mixer Grinder">
+          <h3>Bajaj Rex 500W Mixer Grinder</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>12,987</span>
+          </div>
+          <p class="product-price">₹2,299</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://m.media-amazon.com/images/I/61X8IxQTKxL._AC_UL320_.jpg" alt="Air Fryer">
+          <h3>Instant Pot Vortex Plus Air Fryer</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>3,456</span>
+          </div>
+          <p class="product-price">₹7,999</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <div class="product-badge">Prime</div>
+          <img src="https://m.media-amazon.com/images/I/71YHhO8FfVL._AC_UL320_.jpg" alt="Water Purifier">
+          <h3>Kent Supreme Plus Water Purifier</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>5,678</span>
+          </div>
+          <p class="product-price">₹14,990</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://m.media-amazon.com/images/I/61XDeaOrrIL._AC_UL320_.jpg" alt="Bedsheet Set">
+          <h3>Bombay Dyeing Superfine Cotton Bedsheet</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>4,321</span>
+          </div>
+          <p class="product-price">₹1,299</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-column">
+        <h3>Get to Know Us</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press Releases</a></li>
+          <li><a href="#">Amazon Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Make Money with Us</h3>
+        <ul>
+          <li><a href="#">Sell products on Amazon</a></li>
+          <li><a href="#">Sell on Amazon Business</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">Advertise Your Products</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Amazon Payment Products</h3>
+        <ul>
+          <li><a href="#">Amazon Business Card</a></li>
+          <li><a href="#">Shop with Points</a></li>
+          <li><a href="#">Reload Your Balance</a></li>
+          <li><a href="#">Amazon Currency Converter</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Let Us Help You</h3>
+        <ul>
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Your Orders</a></li>
+          <li><a href="#">Shipping Rates & Policies</a></li>
+          <li><a href="#">Returns & Replacements</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Amazon Logo">
+      </div>
+      <div class="footer-links">
+        <a href="#">Conditions of Use</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Interest-Based Ads</a>
+      </div>
+      <p>&copy; 1996-2025, Amazon.com, Inc. or its affiliates</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
